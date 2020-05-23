@@ -7,3 +7,9 @@ for rida in fail:
     
     
 fail.close()
+
+nimi = input("Sisestage albumi või artisti nimi: ")
+
+for str in album:
+    if nimi in str:
+        print(str)
