@@ -10,7 +10,7 @@ if b == "jah":
     while seis == "aktiivne":
         
         laul = input("Sisestage laulu pealkiri:")
-        laulupealkiri = grupp+ "\t" + album + "\t" + aasta + "\t" + laul
+        laulupealkiri = grupp.title() + "\t" + album.title() + "\t" + aasta + "\t" + laul.title()
         fail = open("albumid.txt", "a")
         fail.write("\n" + laulupealkiri)
         
