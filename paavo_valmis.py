@@ -102,7 +102,7 @@ else:
 Tingimuslause - if-statment
 --------------------------------
 Lisatakse plaatide informatsioon listi ning siis on võimalik soovitud
-lugu otsiada.
+lugu otsida.
 """
     
     if w == "jah":
