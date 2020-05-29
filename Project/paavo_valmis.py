@@ -97,14 +97,15 @@ else:
     # Küsitakse kas kasutaja soovib otsida nimekirjast laulu.
     w = input("Kas soovid otsida laulu? jah/ei ")
     
-"""Laulude otsimine
---------------------------------
-Tingimuslause - if-statment
---------------------------------
-Lisatakse plaatide informatsioon listi ning siis on võimalik soovitud
-lugu otsida.
-"""
-    
+    """
+    Laulude otsimine
+    --------------------------------
+    Tingimuslause - if-statment
+    --------------------------------
+    Lisatakse plaatide informatsioon listi ning siis on võimalik soovitud
+    lugu otsida.
+    """
+
     if w == "jah":
 
         for rida in fail:
@@ -120,5 +121,5 @@ lugu otsida.
                 
     else:
         print("Ei soovinud midagi!")
-        
+
 fail.close()
